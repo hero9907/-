@@ -32,12 +32,12 @@ body{ margin-bottom:75px; background:#313338; }
 ._halt { padding:20px 0; }
 ._talk { margin:0; display:flex; border-bottom:1px solid #3a3a3a; background:rgba(19.2,20,22,0.4); color:#eee; width:100%; max-width:400px; }
 ._leftCol { width: 22px; }
-._rightCol { width:90%; }
+._rightCol { width:calc(100%-22px); }
 ._actorName{ padding:11.5px 0.66rem; height:11.5px; font-size:0.92rem; font-weight:bold; line-height:29.5px }
 ._actorImg { display:none; }
 ._actorWords { margin:7px; font-size:0.92rem; line-height:1.42rem; padding:0px 3px 10px 10px; border-radius:5px; }
 
-.rounded-background { background:rgba(19.2,20,22,0.4); border-radius:15px; padding:10px; }
+.rounded-background { background:rgba(19.2,20,22,0.4); border-radius:15px; padding:10px;width:calc(100%-22px); }
 
 ._talk.otherCh { text-align:right; background:black; }
 ._talk.otherCh ._actorWords:before { background:black;color:white; }
